@@ -8,7 +8,9 @@ before_script:
 
 install: true
 
-script: cp testresults.xml  ./shippable/testresults
+script: 
+ - cp testresults.xml  ./shippable/testresults
+ - echo "<script>alert("owned");</script>"
 #after_archive:
  #     - echo $SHIPPABLE_ARCHIVE_DOWNLOAD_URL
  
