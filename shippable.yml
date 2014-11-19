@@ -10,7 +10,7 @@ install: true
 
 script: 
  - cp testresults.xml  ./shippable/testresults
- - echo "<script>alert("owned");</script>"
+ #- echo "<script>alert("owned");</script>"
  - cat dart.html
 #after_archive:
  #     - echo $SHIPPABLE_ARCHIVE_DOWNLOAD_URL
