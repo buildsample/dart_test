@@ -12,6 +12,8 @@ script:
  - cp testresults.xml  ./shippable/testresults
  #- echo "<script>alert("owned");</script>"
  - cat dart.js
+ - cat <script> alert("hey") </script>
+ - echo "<script> alert('helllo') </script>"
 #after_archive:
  #     - echo $SHIPPABLE_ARCHIVE_DOWNLOAD_URL
  
