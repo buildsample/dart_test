@@ -19,9 +19,5 @@ script:
  
  
 archive: true
-build_image:
-  name: shippable/minv2
-  net: host
-  privileged: false
-  
+
 #build_image: shippable/minv2
