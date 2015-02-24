@@ -18,6 +18,7 @@ script:
 #after_archive:
  #     - echo $SHIPPABLE_ARCHIVE_DOWNLOAD_URL
  
+cache: true
  
 archive: true
 
